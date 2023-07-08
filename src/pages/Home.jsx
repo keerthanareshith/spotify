@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import logo from '../assets/img1.png'
 import './Login'
+import './Signup'
 const Container = styled.div`
     background-color: orange;
     box-sizing: border-box;
@@ -176,7 +177,7 @@ const Home = () => {
                         <li><a href="">Help</a></li>
                         <li><a href="">Download</a></li>
                         <li><a>|</a></li>
-                        <li><a href="">Sign up</a></li>
+                        <li><a href="Signup">Sign up</a></li>
                         <li><a href="Login">Log In</a></li>
                     </ul>
                 </nav>
